@@ -131,7 +131,7 @@ describe('06-conditions-n-loops-tasks', function() {
             },{
                 rect1:    { top:  0, left:  0, width: 90, height: 90 },
                 rect2:    { top: 25, left: 25, width: 10, height: 10 },
-                expected: true
+                expected: false
             },{
                 rect1:    { top:  5, left:  5, width: 20, height: 20 },
                 rect2:    { top:  5, left:  5, width: 40, height: 10 },

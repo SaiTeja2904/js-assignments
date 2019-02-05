@@ -579,7 +579,7 @@ function group(array, keySelector, valueSelector) {
 function selectMany(arr, childrenSelector) {
    let ans = [];
    arr.map((item) => {
-      ans = [...ans,...childrenSelector.call(null,item)];
+      ans = [...ans,...childrenSelector.call(null,[...item])];
    });
    return ans;
 }
